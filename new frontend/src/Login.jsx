@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const AI_SERVICE_URL = "https://safelight-ai-safety-street-camera.onrender.com/";
+export const AI_SERVICE_URL = import.meta.env.SERVICE_URL || "http://localhost:8000";
 export const TOKEN_STORAGE_KEY = "safelight_police_token";
 export const USERNAME_STORAGE_KEY = "safelight_police_username";
 

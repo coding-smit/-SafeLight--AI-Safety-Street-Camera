@@ -5,7 +5,7 @@ import React, { useRef, useState, useEffect, useCallback } from "react";
 // ------------------------------------------------------------------
 // URL of the Python AI service. Change this if the AI service runs
 // on a different host/port (e.g. when testing from a phone on LAN).
-export const AI_SERVICE_URL = import.meta.env.SERVICE_URL || "http://localhost:8000";
+export const AI_SERVICE_URL = import.meta.env.SERVICE_URL;
 // Simple device identifier for this camera module.
 // Later this can be replaced with a real per-device identifier.
 const DEVICE_ID = "PHONE-001";

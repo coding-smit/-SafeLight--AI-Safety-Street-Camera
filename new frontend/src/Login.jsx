@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-export const AI_SERVICE_URL = import.meta.env.SERVICE_URL || "http://localhost:8000";
+export const AI_SERVICE_URL = import.meta.env.SERVICE_URL;
 export const TOKEN_STORAGE_KEY = "safelight_police_token";
 export const USERNAME_STORAGE_KEY = "safelight_police_username";
 

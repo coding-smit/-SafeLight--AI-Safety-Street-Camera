@@ -5,7 +5,7 @@ import React, { useRef, useState, useEffect, useCallback } from "react";
 // ------------------------------------------------------------------
 // URL of the Python AI service. Change this if the AI service runs
 // on a different host/port (e.g. when testing from a phone on LAN).
-const AI_SERVICE_URL = "http://localhost:8000";
+const AI_SERVICE_URL = "https://safelight-ai-safety-street-camera.onrender.com/";
 
 // Simple device identifier for this camera module.
 // Later this can be replaced with a real per-device identifier.

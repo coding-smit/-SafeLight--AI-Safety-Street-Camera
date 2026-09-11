@@ -4,7 +4,7 @@ import { TOKEN_STORAGE_KEY, USERNAME_STORAGE_KEY } from "./Login.jsx";
 
 // Same AI service the camera page talks to. WebSocket URLs use ws:// or
 // wss:// instead of http:///https:// - we derive it automatically below.
-const AI_SERVICE_URL = "http://localhost:8000";
+const AI_SERVICE_URL = "https://safelight-ai-safety-street-camera.onrender.com/";
 
 function toWebSocketUrl(httpUrl, token) {
   const base = httpUrl.replace(/^http/, "ws") + "/ws/dashboard";
